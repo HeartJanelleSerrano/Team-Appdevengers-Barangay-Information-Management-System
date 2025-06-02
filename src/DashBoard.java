@@ -1651,10 +1651,10 @@ public class DashBoard extends JFrame {
 		lblFounder_1_2_1.setBounds(10, 304, 57, 16);
 		barangaybasketnallleaguePNL_1_1_1.add(lblFounder_1_2_1);
 		
-		JLabel lblSerannoHearthJanelle = new JLabel("Seranno, Hearth Janelle");
-		lblSerannoHearthJanelle.setFont(new Font("Tahoma", Font.PLAIN, 13));
-		lblSerannoHearthJanelle.setBounds(62, 304, 137, 16);
-		barangaybasketnallleaguePNL_1_1_1.add(lblSerannoHearthJanelle);
+		JLabel lblSerranoHeartJanelle = new JLabel("Seranno, Hearth Janelle");
+		lblSerranoHeartJanelle.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		lblSerranoHeartJanelle.setBounds(62, 304, 137, 16);
+		barangaybasketnallleaguePNL_1_1_1.add(lblSerranoHeartJanelle);
 		
 		JLabel lblDateIssue_1_1_1 = new JLabel("Date issued");
 		lblDateIssue_1_1_1.setFont(new Font("Tahoma", Font.BOLD, 13));
