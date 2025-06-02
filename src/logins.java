@@ -107,6 +107,17 @@ public class logins extends JFrame {
 		panel.add(taskBarPNL);
 		taskBarPNL.setLayout(null);
 		
+		JButton forgotPasswordBTN = new JButton("Forgot Password");
+		forgotPasswordBTN.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(e.getSource()==forgotPasswordBTN) {
+					forgotPasswordJDialog forgotPassJD = new forgotPasswordJDialog();
+					forgotPassJD.setVisible(true);
+					forgotPassJD.setLocationRelativeTo(null);
+				}
+			}
+		});
+		
 		JLabel lblNewLabel_1 = new JLabel("BARANGAY IBAYO-TIPAS");
 		lblNewLabel_1.setBounds(80, 20, 566, 39);
 		lblNewLabel_1.setForeground(new Color(255, 255, 255));
